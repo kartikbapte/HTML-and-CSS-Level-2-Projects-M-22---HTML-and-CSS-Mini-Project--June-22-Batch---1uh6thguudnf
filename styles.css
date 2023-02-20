@@ -1,1 +1,171 @@
+.container{
+        background-color:white;
+        height: 80vh;
+        width: 80vh;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+.banner1{
+    background-color: rgba(239, 179, 12, 0.915);
+        height: 60%;
+        width: 40%;
+        position:relative;
+/*         
+        border-radius: 15px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.banner1 div{
+    color: white;
+    font-size: 35px;
+    position:absolute;
+    top:60px;
+    left:25px
 
+
+    
+}
+.banner1 svg{
+    position:absolute;
+    top:15px;
+    left:25px
+
+}
+.banner1 p{
+    color: white;
+    font-size: 12px;
+    position:absolute;
+    top:100px;
+    left:25px
+
+}
+.banner1 .btn{
+    height: 25px;
+    width: 100px;
+    background-color: rgba(239, 179, 12, 0.915);
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius:50% ;
+    position:absolute;
+    bottom:20px;
+    left:30%;
+    
+
+}
+.banner2{
+    background-color: rgba(22, 135, 120, 0.795);
+        height: 60%;
+        width: 40%;
+        position:relative;
+        
+        /* border-radius: 15px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.banner2 div{
+    color: white;
+    font-size: 35px;
+    position:absolute;
+    top:60px;
+    left:25px
+
+
+    
+}
+.banner2 svg{
+    position:absolute;
+    top:15px;
+    left:25px
+
+}
+.banner2 p{
+    color: white;
+    font-size: 12px;
+    position:absolute;
+    top:100px;
+    left:25px
+
+}
+.banner2 .btn{
+    height: 25px;
+    width: 100px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(22, 135, 120, 0.795);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius:50% ;
+    position:absolute;
+    bottom:20px;
+    left:30%;
+   
+}
+.banner3{
+    background-color: rgb(2, 60, 69);
+        height: 60%;
+        width: 40%;
+        position:relative;
+    
+        /* border-radius: 15px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.banner3 div{
+    color: white;
+    font-size: 35px;
+    position:absolute;
+    top:60px;
+    left:25px
+
+
+    
+}
+.banner3 svg{
+    position:absolute;
+    top:15px;
+    left:25px
+
+}
+.banner3 p{
+    color: white;
+    font-size: 12px;
+    position:absolute;
+    top:100px;
+    left:25px
+
+}
+.banner3 .btn{
+    height: 25px;
+    width: 100px;
+    background-color: rgb(2, 60, 69);
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius:50% ;
+    position:absolute;
+    bottom:20px;
+    left:30%;
+   
+
+}
