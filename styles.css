@@ -1,29 +1,42 @@
-.container{
-        background-color:white;
-        height: 50%;
-        width: 60%;
+/* 
+main{
+    
+    margine: 150px auto;
+    
+    color: white;
+    display: grid;
+   
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 350px;
+    position: relative;
+    justify-content: center;
+   
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 .banner1{
-    background-color: rgba(239, 179, 12, 0.915);
-        height: 50%;
-        width: 20%;
-        position:relative;
-/*         
-        border-radius: 15px; */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+    background-color: rgba(239, 179, 12, 0.915) ;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.banner2{
+    background-color:rgba(22, 135, 120, 0.795) ;
+    position: relative;
+   
+}
+
+.banner3{
+    background-color:  rgb(2, 60, 69);
+    position: relative;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
 }
 .banner1 div{
     color: white;
     font-size: 25px;
-    font-style: Arial Narrow;
+    
     position:absolute;
     top:75px;
     left:25px
@@ -48,35 +61,20 @@
 
 }
 .banner1 .btn{
-    height: 30px;
+    height: 25px;
     width: 100px;
     background-color: rgba(239, 179, 12, 0.915);
     color: white;
     border: 1px solid white;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    font-size: 16px;
+    
+    font-size: 15px;
     border-radius:20px ;
     position:absolute;
     bottom:20px;
-    left:25%;
-    
+    left:25%
+}
 
-}
-.banner2{
-    background-color: rgba(22, 135, 120, 0.795);
-        height: 50%;
-        width: 20%;
-        position:relative;
-        
-        /* border-radius: 15px; */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-}
 .banner2 div{
     color: white;
     font-size: 25px;
@@ -108,10 +106,7 @@
     color: white;
     border: 1px solid white;
     background-color: rgba(22, 135, 120, 0.795);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+   
     font-size: 16px;
     border-radius:20px ;
     position:absolute;
@@ -119,18 +114,7 @@
     left:25%;
    
 }
-.banner3{
-    background-color: rgb(2, 60, 69);
-        height: 50%;
-        width: 20%;
-        position:relative;
-    
-        /* border-radius: 15px; */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-}
+
 .banner3 div{
     color: white;
     font-size: 25px;
@@ -162,15 +146,177 @@
     background-color: rgb(2, 60, 69);
     color: white;
     border: 1px solid white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+ 
     font-size: 16px;
     border-radius:20px ;
     position:absolute;
     bottom:20px;
     left:25%;
    
+
+}  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+svg{
+    margin-top: 12%;
+    margin-left: 15%;
+}
+
+p{
+    font-size: 16px;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    line-height: 1.7;
+    height: 200px;
+}
+
+h1{
+    color: white;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+
+.container{
+        display: grid;
+        grid-template-columns: 24% 24% 24%;
+        justify-content: center;
+        height: 70%;
+        position: absolute;
+        top:15%;       
+}
+
+
+
+/* banner 1  */
+.banner1{
+    background-color: #efb30ce9; 
+    border-top-left-radius: 6px;    
+    border-bottom-left-radius: 6px;    
+}
+
+.banner1 .btn{
+    background-color: white;
+    color: #efb30ce9; 
+}
+
+.banner1 .btn:hover{
+    color: white;
+    background-color: #efb30ce9;
+}
+
+
+
+/* banner 2  */
+.banner2{
+    background-color: #168778cb;      
+}
+
+.banner2 .btn{
+    background-color: white;
+    color: #168778cb;
+}
+
+.banner2 .btn:hover{
+    color: white;
+    background-color:  #168778cb;
+}
+
+
+
+/* banner 3  */
+.banner3{
+    background-color: #023c45;
+    border-top-right-radius: 6px;    
+    border-bottom-right-radius: 6px;   
+}
+
+.banner3 .btn{
+    color: #023c45;
+    background-color: white;
+}
+
+.banner3 .btn:hover{
+    color: white;
+    background-color: #023c45;
+}
+
+
+/* media query 
+below 768px covers mobile screen as well
+300px< approx. mobile screen <=400px  
+*/
+@media only screen and (max-width: 768px) {
+    svg{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+        height: 160px;
+    }
+    
+    h1{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    button{
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        height: max-content;
+        position: relative;
+        margin: 100px auto;
+    }
+
+
+
+    /* banner 1  */
+    .banner1{
+        border-top-left-radius: 8px;    
+        border-top-right-radius: 8px;  
+        border-bottom-left-radius: 0px;  
+    }
+
+
+    /* banner 3  */
+    .banner3{
+        border-bottom-left-radius: 8px;    
+        border-bottom-right-radius: 8px;   
+        border-top-right-radius: 0px;   
+    }
 
 }
